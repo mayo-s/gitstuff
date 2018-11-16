@@ -10,7 +10,9 @@ touch .gitignore // get default from gitignore.io
 
 touch README.md // create new readme file - short description of your product
 
-git add . // will add tracked
+git add . // will add all tracked project files (always double check with 'git status')
+
+git add filename // will add specific file
 
 git status // check current status - what was added to stage?
 
@@ -28,7 +30,7 @@ git checkout branch_name // switch to other branch
 
 git checkout -b new_branch // create new branch with named new_branch
 
-git merge master new_feature // merge changes of new_feature branch into master branch
+git merge new_feature // merge changes of new_feature branch into current branch
 
 
 
