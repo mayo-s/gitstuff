@@ -1,0 +1,43 @@
+# what to start with on git (console)
+
+cd ~/path-to-project
+
+git init // in project folder/repo to initialize git
+
+touch filename // create new file
+
+touch .gitignore // get default from gitignore.io
+
+touch README.md // create new readme file - short description of your product
+
+git add . // will add tracked
+
+git status // check current status - what was added to stage?
+
+git commit -m "Add commit message here" // there are quite a few commit messages out there
+
+git log // shows a detailed list of your commits
+
+git log --oneline // shows a shortend commit list
+
+git diff // in case of existing changes - will show the files and what was changed
+
+git branch // prints a list of all exisiting branches
+
+git checkout branch_name // switch to other branch
+
+git checkout -b new_branch // create new branch with named new_branch
+
+git merge master new_feature // merge changes of new_feature branch into master branch
+
+
+
+# Github
+
+git push // push commits to specified github repo
+
+git pull // pull changes from github repo
+
+git clone http://github.com/name/repo // create local clone of complete project, do within a new folder (before git init)
+
+ 
